@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  site1:
+    build: site1
+    ports:
+      - "80:3000"
